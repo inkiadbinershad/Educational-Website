@@ -1,0 +1,89 @@
+/* Softer, eye-soothing gradient */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+}
+
+/* Transparent container with softer matching colors */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    text-align: center;
+    color: #444;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Quiz Container Styles */
+.quiz-container {
+    margin-top: 20px;
+}
+
+.quiz-item {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.quiz-item p {
+    margin: 5px 0;
+    color: #333;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    color: #555;
+}
+
+/* Button styles */
+.btn {
+    padding: 10px 15px;
+    background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 100%;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: linear-gradient(135deg, #a6c1ee 0%, #fbc2eb 100%);
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    .btn {
+        font-size: 14px;
+    }
+}
+
+/* Result container */
+.result-container {
+    margin-top: 20px;
+    padding: 10px;
+    background: rgba(255, 229, 217, 0.7); /* Semi-transparent */
+    border: 1px solid #f0a6ca;
+    border-radius: 5px;
+    color: #444;
+}
