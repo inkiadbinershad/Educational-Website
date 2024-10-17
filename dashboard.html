@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dashboard</h1>
+        <button onclick="window.location.href='upload_video.html'" class="btn">Upload Videos</button>
+        <button onclick="window.location.href='quiz.html'" class="btn">Take Quiz</button>
+        <button onclick="logout()" class="btn">Logout</button>
+    </div>
+
+    <script>
+        function logout() {
+            alert('Logging out...');
+            window.location.href = 'index.html'; // Redirect to the login page
+        }
+    </script>
+</body>
+</html>
